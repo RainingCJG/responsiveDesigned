@@ -1,0 +1,212 @@
+/*body*/
+#body{
+	width: 100%;
+}
+
+#body .index-bg{
+	position: relative;
+	/*height: 422px;
+	background-size: 100% 100%;*/
+}
+
+#body .index-bg img{
+	display: block;
+	max-width: 100%;
+}
+
+#body .index-bg .search{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 40%;
+	height: 58px;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,.5);
+	border-radius: 10px;
+	background-color: rgba(0,0,0,.5);
+}
+
+#body .search input{
+	width: 69%;
+	text-indent: 10px;
+}
+
+#body .search button{
+	width: 29%;
+	cursor: pointer;
+}
+
+#body .search input,
+#body .search button{
+	position: relative;
+	top: 5%;
+	height: 90%;
+	border-radius: 10px;
+	font-size: 24px;
+	background-color: #eee;
+	color: #666;
+	font-weight: bold;
+}
+
+#body .tour{
+	max-width: 1183px;
+	margin: 16px auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+#body .tour-title h2{
+	font-size: 45px;
+	margin: 10px 0;
+	letter-spacing: 2px;
+	color: #666;
+}
+
+#body .tour-title p{
+	margin: 10px;
+	font-size: 16px;
+	color: #666;
+}
+
+#body .tour figure{
+	position: relative;
+	float: left;
+	width: 31.5%;
+	margin: 15px 0.4%;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #eee;
+}
+
+#body .tour figure img{
+	max-width: 100%;
+}
+
+#body .tour-type{
+	top: 5px;
+	left: 5px;
+}
+
+#body .tour-info{
+	height: 40px;
+	overflow: hidden;
+	font-size: 14px;
+	color: #777;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+#body .tour-info strong{
+	color: #333;
+}
+
+#body .price{
+	float: left;
+	color: #f60;
+	font-size: 14px;
+}
+
+#body .price strong{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+#body .sat{
+	position: relative;
+	right: 5px;
+	top: 5px;
+	float: right;
+	color: #999;
+	font-size: 13px;
+}
+
+/*响应式布局--媒体查询*/
+/*当页面小于1200px大于992时,中等屏幕,分辨率低的pc端*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	#body .index-bg .search{
+		width: 50%;
+		height: 52px;
+	}
+
+	#body .search input,
+	#body .search button{
+		font-size: 22px;
+	}
+
+	#body .tour figure{
+		width: 31.3%;
+	}
+}
+
+/*当页面小于992px大于768时,小屏幕,主要是pad*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#body .index-bg .search{
+		width: 60%;
+		height: 45px;
+	}
+
+	#body .search input,
+	#body .search button{
+		font-size: 20px;
+	}
+
+	#body .tour-title h2{
+		font-size: 40px;
+	}
+
+	#body .tour figure{
+		width: 30.9%;
+	}
+}
+
+/*当页面小于768px大于480时,超小屏幕,主要是手机*/
+@media screen and (min-width: 480px) and (max-width: 767px){
+	#body .index-bg .search{
+		width: 70%;
+		height: 40px;
+	}
+
+	#body .search input,
+	#body .search button{
+		font-size: 18px;
+	}
+
+	#body .tour-title h2{
+		font-size: 35px;
+	}
+
+	#body .tour figure{
+		width: 46.5%;
+		margin: 15px .45%;
+	}
+}
+
+/*当页面小于480时,微小屏幕,主要是手机*/
+@media screen and (max-width: 479px){
+	#body .index-bg .search{
+		width: 80%;
+		height: 35px;
+	}
+
+	#body .search input,
+	#body .search button{
+		font-size: 14px;
+	}
+
+	#body .tour-title h2{
+		font-size: 30px;
+	}
+
+	#body .tour figure{
+		display: inline-block;
+		float: none;
+		width: 95%;
+		margin: 15px auto;
+	}
+}
+

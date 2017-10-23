@@ -1,0 +1,232 @@
+/*news*/
+#tournews .container h2{
+	height: 40px;
+	line-height: 40px;
+	font-weight: normal;
+	font-size: 30px;
+	color: #666;
+	padding: 0 0 15px 0;
+	margin-top: 30px;
+	border-bottom: 1px dashed #999;
+}
+
+#tournews .container figure{
+	position: relative;
+	margin: 20px 0;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #eee;
+	overflow: hidden;
+}
+
+#tournews .tour-info img{
+	width: 45%;
+}
+
+#tournews .tour-info figcaption{
+	width: 55%;
+	height: 100%;
+}
+
+#tournews .tour-info article{
+	height: 100%;
+}
+
+#tournews .article-header h3{
+	padding: 10px 0 10px 25px;
+	font-weight: normal;
+	font-size: 24px;
+	color: #333;
+}
+
+#tournews .article-header .discount{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 75px;
+	height: 52px;
+	line-height: 82px;
+	text-align: center;
+	font-size: 14px;
+	color: #ff7a4d;
+	background-color: #FFEFDB;
+	-webkit-transform: rotate(45deg) translate(8px,-32px);
+	   -moz-transform: rotate(45deg) translate(8px,-32px);
+	    -ms-transform: rotate(45deg) translate(8px,-32px);
+	     -o-transform: rotate(45deg) translate(8px,-32px);
+	        transform: rotate(45deg) translate(8px,-32px);
+}
+
+#tournews .article-content p{
+	width: 250px;
+	padding: 10px 0 10px 25px;
+	line-height: 1.5;
+	font-size: 16px;
+	color: #666;
+}
+
+#tournews .article-content li{
+	padding: 10px 0 0 25px;
+	font-size: 16px;
+	color: #666;
+}
+
+#tournews .article-content mark{
+	display: inline-block;
+	width: 40px;
+	font-size: 14px;
+	background-color: #fff;
+	color: #393;
+	border: 1px solid #393;
+	border-radius: 5px;
+	margin-right: 6px;
+	text-align: center;
+}
+
+#tournews .article-content .fr{
+	margin-right: 15px;
+}
+
+#tournews .article-content .price{
+	font-size: 18px;
+	color: #f60;
+}
+
+#tournews .article-content strong{
+	font-size: 30px;
+}
+
+#tournews .article-content s{
+	font-size: 16px;
+	color: #999;
+}
+
+#tournews .article-content button{
+	display: block;
+	width: 130px;
+	height: 36px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #f60;
+	border: 1px solid #f60;
+	border-radius: 5px;
+}
+
+#tournews .tournews-content .more{
+	display: block;
+	width: 200px;
+	height: 50px;
+	margin: 20px auto;
+	line-height: 50px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	font-size: 18px;
+	background-color: #fafafa;
+	cursor: pointer;
+}
+
+#tournews .article-footer{
+	margin-top: 30px;
+	padding: 10px 0 0 25px;
+	font-size: 16px;
+	color: #666;
+}
+
+#tournews .article-footer time{
+	color: #393;
+}
+
+/*响应式布局--媒体查询*/
+/*当页面大于1200px时,大屏幕,主要是pc端*/
+@media screen and (min-width: 1200px){
+	#tournews .container img{
+		height: 260px;
+	}
+}
+
+/*当页面小于1200px大于992时,中等屏幕,分辨率低的pc端*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	#tournews .container img{
+		height: 260px;
+	}
+}
+
+/*当页面小于992px大于768时,小屏幕,主要是pad*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#tournews .article-header h3{
+		font-size: 20px;
+	}
+
+	#tournews .article-content button{
+		display: none;
+	}
+
+	#tournews .article-content .fr{
+		position: absolute;
+		bottom: 0;
+		margin-left: 25px;
+	}
+}
+
+/*当页面小于768px大于480时,超小屏幕,主要是手机*/
+@media screen and (min-width: 480px) and (max-width: 767px){
+	#tournews .article-header h3{
+		font-size: 16px;
+	}
+
+	#tournews .article-content p{
+		font-size: 14px;
+	}
+
+	#tournews .article-content button{
+		display: none;
+	}
+
+	#tournews .article-content .fr{
+		position: absolute;
+		bottom: 0;
+		margin-left: 25px;
+	}
+
+	#tournews .article-content .price,
+	#tournews .article-content s{
+		font-size: 16px;
+	}
+
+	#tournews .article-content strong{
+		font-size: 18px;
+	}
+}
+
+/*当页面小于480时,微小屏幕,主要是手机*/
+@media screen and (max-width: 479px){
+	#tournews .article-header h3{
+		font-size: 12px;
+	}
+
+	#tournews .article-content button{
+		display: none;
+	}
+
+	#tournews .article-content .fr{
+		position: absolute;
+		bottom: 0;
+		margin-left: 25px;
+	}
+
+	#tournews .article-content .price,
+	#tournews .article-content s{
+		font-size: 14px;
+	}
+
+	#tournews .article-content strong{
+		font-size: 16px;
+	}
+
+	#tournews .tournews-content .more{
+		width: 100px;
+		font-size: 16px;
+	}
+}
+
+

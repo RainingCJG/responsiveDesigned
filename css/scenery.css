@@ -1,0 +1,41 @@
+/*scenery*/
+.scenery figure{
+	display: inline-block;
+	width: 31.5%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 4px;
+	margin: 15px 0;
+}
+
+.scenery figure img{
+	width: 100%;
+}
+
+.scenery figcaption{
+	text-align: center;
+	font-size: 20px;
+}
+
+/*响应式布局--媒体查询*/
+/*当页面小于768px大于480时,超小屏幕,主要是手机*/
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.scenery figure{
+		width: 47%;
+	}
+
+	.scenery figcaption{
+		font-size: 18px;
+	}
+}
+
+/*当页面小于480时,微小屏幕,主要是手机*/
+@media screen and (max-width: 479px){
+	.scenery figure{
+		width: 95%;
+	}
+
+	.scenery figcaption{
+		font-size: 18px;
+	}
+}

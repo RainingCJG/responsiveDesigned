@@ -1,0 +1,493 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"has-",
+				"has-error \tBootstrap 3 Class"
+			],
+			[
+				"has",
+				"has-success \tBootstrap 3 Class"
+			],
+			[
+				"form-",
+				"form-control-feedback \tBootstrap 3 Class"
+			],
+			[
+				"gly-re",
+				"glyphicon-remove \tBootstrap 3 Class"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"min",
+				"minlength\tAttr"
+			],
+			[
+				"tex",
+				"text-muted \tBootstrap 3 Class"
+			],
+			[
+				"bs3-",
+				"bs3-form\tbs3-form"
+			],
+			[
+				"tab",
+				"table-bordered \tBootstrap 3 Class"
+			],
+			[
+				"bs3-ta",
+				"bs3-table\tbs3-table"
+			],
+			[
+				"text",
+				"text-justify \tBootstrap 3 Class"
+			],
+			[
+				"text-",
+				"text-muted \tBootstrap 3 Class"
+			],
+			[
+				"s",
+				"angular: scope"
+			],
+			[
+				"na",
+				"nav-justified \tBootstrap 3 Class"
+			],
+			[
+				"n",
+				"nav-pills \tBootstrap 3 Class"
+			],
+			[
+				"nav",
+				"navbar-brand \tBootstrap 3 Class"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"nav-",
+				"nav-justified \tBootstrap 3 Class"
+			],
+			[
+				"bs3-n",
+				"bs3-navbar\tbs3-navbar"
+			],
+			[
+				"pull",
+				"pull-right \tBootstrap 3 Class"
+			],
+			[
+				"fo",
+				"form-group \tBootstrap 3 Class"
+			],
+			[
+				"form",
+				"form-control \tBootstrap 3 Class"
+			],
+			[
+				"bs3-b",
+				"bs3-button\tbs3-button"
+			],
+			[
+				"app",
+				"angular: $apply"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"col-md-off",
+				"col-md-offset-2 \tBootstrap 3 Class"
+			],
+			[
+				"bs3-r",
+				"bs3-row-col\tbs3-row-col"
+			],
+			[
+				"bs3-p",
+				"bs3-panel:info\tbs3-panel-info"
+			],
+			[
+				"dec",
+				"directive\tAngular.js"
+			],
+			[
+				"pa",
+				"pagination-sm \tBootstrap 3 Class"
+			],
+			[
+				"bs3-pa",
+				"bs3-pagination\tbs3-pagination"
+			],
+			[
+				"a",
+				"ui-bootstrap-tpls.js"
+			],
+			[
+				"la",
+				"label-success \tBootstrap 3 Class"
+			],
+			[
+				"on",
+				"angular: $on"
+			],
+			[
+				"root",
+				"angular: $rootScope"
+			],
+			[
+				"w",
+				"angular: $watch"
+			],
+			[
+				"js",
+				"angular.fromJson"
+			],
+			[
+				"pro",
+				"provider\tAngular.js"
+			],
+			[
+				"c",
+				"config\tAngular.js"
+			],
+			[
+				"table-",
+				"table-condensed \tBootstrap 3 Class"
+			],
+			[
+				"bs3-t",
+				"bs3-table\tbs3-table"
+			],
+			[
+				"in",
+				"input-group \tBootstrap 3 Class"
+			],
+			[
+				"inp",
+				"input-group-addon \tBootstrap 3 Class"
+			],
+			[
+				"bs3-f",
+				"bs3-form\tbs3-form"
+			],
+			[
+				"bl",
+				"help-block \tBootstrap 3 Class"
+			],
+			[
+				"md-o",
+				"col-md-offset-3 \tBootstrap 3 Class"
+			],
+			[
+				"gly",
+				"glyphicon-adjust \tBootstrap 3 Class"
+			],
+			[
+				"pu",
+				"pull-right \tBootstrap 3 Class"
+			],
+			[
+				"glyphicon-l",
+				"glyphicon-lock \tBootstrap 3 Class"
+			],
+			[
+				"ha",
+				"has-feedback \tBootstrap 3 Class"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"ted",
+				"text-decoration"
+			],
+			[
+				"trn",
+				"transition"
+			],
+			[
+				"fon-s",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"con",
+				"controller\tAngular.js"
+			],
+			[
+				"l",
+				"label \tBootstrap 3 Class"
+			],
+			[
+				"p",
+				"panel \tBootstrap 3 Class"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 387.0,
+		"last_filter": "Package Control: install",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control install",
+				"Package Control: Install Package"
+			],
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Users/angular/app/controllers/login.js",
+		"/D/Users/angular/app/controllers/registerCtrl.js",
+		"/D/Users/angular/index.html",
+		"/D/Users/angular/views/register.html",
+		"/D/Users/angular/views/login.html",
+		"/D/Users/angular/public/style/login.css",
+		"/D/Users/angular/app/route.js",
+		"/D/Users/angular/views/reviseInfo.html",
+		"/D/Users/angular/views/back.html",
+		"/D/Users/angular/views/info.html",
+		"/D/Users/angular/app/directives/reviseInfoDirective.js",
+		"/D/Users/angular/app/directives/borrowInfoDirective.js",
+		"/D/Users/angular/app/controllers/userInfoCtrl.js",
+		"/D/Users/angular/views/borrowInfo.html",
+		"/D/Users/angular/app/services/borrowInfoService.js",
+		"/D/Users/angular/borrowInfo.json",
+		"/D/Users/angular/views/userinfo.html",
+		"/D/Users/angular/app/directives/userInfoDirective.js",
+		"/D/Users/angular/public/style/index.css",
+		"/D/Users/angular/views/booksInfo.html",
+		"/D/Users/angular/views/borrow.html",
+		"/D/Users/angular/app/controllers/borrow.js",
+		"/D/Users/angular/app/controllers/booksInfo.js",
+		"/D/Users/angular/booksInfo.json",
+		"/D/Users/angular/app/directives/borrowDirective.js",
+		"/D/Users/angular/app/services/borrowService.js",
+		"/D/Users/angular/app/app.js",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/C/Users/Administrator/Desktop/angular.min.js",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SublimeServer.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/D/Users/angular/hdHeader.html",
+		"/D/Users/booksMassage.make",
+		"/D/Users/booksMassage",
+		"/D/实验3.js",
+		"/D/新仙剑/node.sublime-build"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

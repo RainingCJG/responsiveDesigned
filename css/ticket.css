@@ -1,0 +1,182 @@
+/*ticket*/
+.ticket .type{
+	margin: 20px 0 10px 0;
+	border: none;
+}
+
+.ticket .type mark{
+	margin: 0 10px 0 16px;
+	padding: 5px 8px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #458b00;
+}
+
+.ticket .left,
+.ticket .center{
+	width: 40%;
+	line-height: 60px;
+}
+
+.ticket fieldset input{
+	width: 60%;
+	font-size: 18px;
+	margin: 0 10px 0 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-indent: 5px;
+}
+
+.ticket .right button{
+	width: 90px;
+	height: 90px;
+	margin-right: 30px;
+	line-height: 90px;
+	font-size: 18px;
+	background-color: #f60;
+	color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/*recent*/
+.ticket .recent ul{
+	margin: 20px 0;
+	font-size: 20px;
+	line-height: 2;
+}
+
+.ticket .recent li{
+	float: left;
+	margin: 0 10px;
+}
+
+.ticket .recent li:first-child{
+	margin-left: 0;
+}
+
+.ticket .recent li:nth-child(2){
+	background-color: #458b00;
+	border-radius: 4px;
+	color: #fff;
+	padding: 5px 10px;
+	line-height: 30px;
+}
+
+.ticket .recent table{
+	width: 100%;
+	font-size: 20px;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	border-spacing: 2px;
+}
+
+.ticket .recent .price{
+	color: #f60;
+}
+
+.ticket .recent .btn{
+	width: 90%;
+	height: 36px;
+	color: #fff;
+	background: #f60;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.ticket .recent th,
+.ticket .recent td{
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	font-weight: normal;
+	padding: 10px 0;
+}
+
+.ticket .recent tr:nth-child(even){
+	background-color: #efe;
+}
+
+.ticket .recent .more{
+	color: #666;
+}
+
+.ticket .recent tr:hover{
+	background-color: #ddd;
+}
+
+/*响应式布局--媒体查询*/
+/*当页面小于768px大于480时,超小屏幕,主要是手机*/
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.ticket .left,
+	.ticket .center,
+	.ticket .right{
+		width: 100%;
+		float: none;
+		line-height: 2;
+	}
+
+	.ticket fieldset input{
+		width: 100%;
+		margin: 0;
+		font-size: 18px;
+	}
+
+	.ticket .right button{
+		display: block;
+		width: 150px;
+		height: 40px;
+		margin: 20px auto 0 auto;
+		line-height: 1;
+		font-size: 16px;
+	}
+
+	/*recent*/
+	.ticket .recent ul,
+	.ticket .recent table,
+	.ticket .recent .btn{
+		font-size: 16px;
+	}
+
+	.ticket .recent li:nth-child(2){
+		line-height: 20px;
+	}
+}
+
+/*当页面小于480时,微小屏幕,主要是手机*/
+@media screen and (max-width: 479px){
+	.ticket .left,
+	.ticket .center,
+	.ticket .right{
+		width: 100%;
+		float: none;
+		line-height: 2;
+	}
+
+	.ticket fieldset input{
+		width: 100%;
+		margin: 0;
+		font-size: 16px;
+	}
+
+	.ticket .right button{
+		display: block;
+		width: 100px;
+		height: 30px;
+		margin: 20px auto 0 auto;
+		line-height: 1;
+		font-size: 14px;
+	}
+
+	/*recent*/
+	.ticket .recent ul,
+	.ticket .recent table,
+	.ticket .recent .btn{
+		font-size: 12px;
+	}
+
+	.ticket .recent li:nth-child(2){
+		line-height: 14px;
+	}
+}

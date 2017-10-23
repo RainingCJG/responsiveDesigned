@@ -1,0 +1,535 @@
+/*重置样式*/
+body,div,ul,li,ol,a,p,header,table,footer,section,fieldset,nav,input,button,h1,h2,h3,h4,h5,h6,figure,figcaption,img{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font: 12px/1.426 "微软雅黑";
+	padding-top: 70px;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+input,button,fieldset{
+	font: 12px/1.426 "微软雅黑";
+	outline: none;
+	border: none;
+}
+
+
+/*公共样式*/
+.none{
+	display: none;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.clearfix{
+	zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.active{
+	background-color: #000;
+}
+
+.tour-type{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 1px;
+	background-color: #59b200;
+	border-bottom-right-radius: 5px;
+}
+
+/*header*/
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	background-color: #333;
+	-webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
+	   -moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
+	    -ms-box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
+	        box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
+	z-index: 1;
+}
+
+#header h1{
+	width: 300px;
+	margin-top: -1px;
+	margin-left: -35px;
+	text-indent: -9999px;
+	background: url(../img/logo.png) no-repeat center;
+}
+
+#header .container{
+	max-width: 1263px;
+	margin: 0 auto;
+}
+
+#header .nav{
+	width: 60%;
+}
+
+#header .navlist{
+	width: 100%;
+}
+
+#header .navlist li{
+	width: 20%;
+	float: left;
+	font-size: 16px;
+}
+
+#header .navlist li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #eee;
+}
+
+#header .nav li:hover{
+	background-color: #000;
+}
+
+/*footer*/
+#footer{
+	background-color: #222;
+}
+
+#footer .top{
+	max-width: 1183px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#footer .top .footer-link{
+	display: inline-block;
+	width: 30%;
+	height: 284px;
+	color: #ccc;
+	text-align: left;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#footer .top div.footer-link:last-child{
+	margin-right: 0;
+}
+
+#footer .footer-link h3{
+	font-size: 24px;
+}
+
+#footer .footer-link hr{
+	border: 1px dashed #333;
+}
+
+#footer .footer-link li{
+	font-size: 18px;
+	line-height: 2;
+	color: #777;
+}
+
+#footer .footer-link li a{
+	color: #777;
+}
+
+#footer .footer-link li a:hover{
+	text-decoration: underline;
+}
+
+#footer .bottom{
+	padding: 15px 0;
+	color: #777;
+	font-size: 16px;
+	text-align: center;
+	border-top: 1px solid #444;
+	background-color: #000;
+}
+
+/****tourNews****/
+#tournews{
+	background-color: #eee;
+}
+
+#tournews .container{
+	width: 69%;
+	color: #666;
+}
+
+#tournews .container fieldset{
+	font-size: 20px;
+}
+
+#tournews .container h2{
+	height: 40px;
+	line-height: 40px;
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: normal;
+	border-bottom: 1px dashed #999;
+	padding: 0 0 15px 0;
+}
+
+/*background*/
+#tournews .tournews-bg{
+	position: relative;
+}
+
+#tournews .tournews-bg img{
+	max-width: 100%;
+}
+
+#tournews .tournews-bg hgroup{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-width: 1183px;
+	width: 80%;
+	height: 100px;
+	margin: auto auto;
+	color: #f5f5f5;
+	letter-spacing: 1px;
+}
+
+#tournews .title h2{
+	font-size: 45px;
+}
+
+#tournews .title h3{
+	font-size: 26px;
+	line-height: 1;
+}
+
+/*content*/
+#tournews .tournews-content{
+	max-width: 1183px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/*aside*/
+#tournews .sidebar{
+	width: 350px;
+	margin-top: 20px;
+}
+
+#tournews .block{
+	width: 100%;
+	border: 1px solid #eee;
+	text-align: center;
+	background-color: #fff;
+	margin: 10px 0;
+}
+
+#tournews .block h3{
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: left;
+	text-indent: 10px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	background-color: #fafafa;
+	color: #666;
+	border-bottom: 1px solid #eee;
+}
+
+#tournews .block-padding{
+	padding: 12px 0;
+}
+
+#tournews .recommend ul>li{
+	display: inline-block;
+	width: 29%;
+	height: 35px;
+	line-height: 35px;
+	text-align: left;
+	text-indent: 8px;
+	margin: 2px 0;
+	background-color: #eee;
+}
+
+#tournews .recommend ul>li a{
+	display: block;
+	color: #999;
+	font-size: 16px;
+}
+
+#tournews .recommend li a:hover{
+	background-color: #391;
+    color: #fff;
+}
+
+#tournews .hot figure{
+	display: inline-block;
+	padding: 4px;
+}
+
+#tournews .hot figcaption{
+	color: #666;
+	font-size: 16px;
+	margin-top: -4px;
+}
+
+#tournews .treasure li{
+	display: inline-block;
+	width: 45%;
+	height: 35px;
+	line-height: 35px;
+	text-align: left;
+	text-indent: 8px;
+	margin: 2px 0;
+	background-color: #eee;
+}
+
+#tournews .treasure li a{
+	color: #999;
+	font-size: 16px;
+}
+
+/*响应式布局--媒体查询*/
+/*当页面大于1200px时,大屏幕,主要是pc端*/
+@media screen and (min-width: 1200px){
+	/*header*/
+	#header{
+		min-width: 1183px;
+	}
+
+	/*footer*/
+	#footer .mobile-show{
+		display: none;
+	}
+}
+
+/*当页面小于1200px大于992时,中等屏幕,分辨率低的pc端*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	/*footer*/
+	#footer .mobile-show{
+		display: none;
+	}
+	
+	/*tournews*/
+	#tournews .tournews-bg hgroup{
+		height: 100px;
+	}
+
+	#tournews .title h2{
+		font-size: 38px;
+	}
+
+	#tournews .title h3{
+		font-size: 20px;
+	}
+
+	#tournews .container{
+		width: 100%;
+	}
+
+	#tournews .sidebar{
+		display: none;
+	}
+}
+
+/*当页面小于992px大于768时,小屏幕,主要是pad*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+	body{
+		padding-top: 60px;
+	}
+
+	.md-remove{
+		display: none;
+	}
+	
+	/*header*/
+	#header{
+		height: 60px;
+		line-height: 60px;
+	}
+	
+	/*footer*/
+	#footer .mobile-show{
+		display: none;
+	}
+
+	/*tournews*/
+	#tournews .tournews-bg hgroup{
+		height: 100px;
+	}
+
+	#tournews .title h2{
+		font-size: 30px;
+	}
+
+	#tournews .title h3{
+		font-size: 16px;
+	}
+
+	#tournews .container{
+		width: 100%;
+	}
+
+}
+
+/*当页面小于768px大于480时,超小屏幕,主要是手机*/
+@media screen and (min-width: 480px) and (max-width: 767px){
+	body{
+		padding-top: 50px;
+	}
+
+	/*隐藏*/
+	.sm-remove{
+		display: none;
+	}
+	
+	/*header*/
+	#header{
+		height: 50px;
+		line-height: 50px;
+	}
+
+	#header .nav{
+		width: 100%;
+		float: none;
+	}
+
+	#header .navlist li{
+		font-size: 14px;
+	}
+	
+	/*footer*/
+	#footer .top .footer-link{
+		display: none;
+	}
+
+	#footer .mobile-show{
+		display: block;
+		font-size: 16px;
+		color: #666;
+		padding: 10px 0;
+	}
+
+	/*tournews*/
+	#tournews .tournews-bg hgroup{
+		height: 75px;
+	}
+
+	#tournews .title h2{
+		font-size: 26px;
+	}
+
+	#tournews .title h3{
+		font-size: 14px;
+	}
+
+	#tournews .ticket fieldset{
+		font-size: 16px;
+	}
+
+	#tournews .container{
+		width: 100%;
+	}
+
+	#tournews .container h2{
+		font-size: 26px;
+	}
+}
+
+/*当页面小于480时,微小屏幕,主要是手机*/
+@media screen and (max-width: 479px){
+	body{
+		padding-top: 40px;
+	}
+
+	/*隐藏*/
+	.xs-remove{
+		display: none;
+	}
+
+	/*header*/
+	#header{
+		height: 40px;
+		line-height: 40px;
+	}
+	
+	#header .nav{
+		width: 100%;
+		float: none;
+	}
+
+	#header .navlist li{
+		font-size: 12px;
+	}
+
+	/*footer*/
+	#footer .top .footer-link{
+		display: none;
+	}
+
+	#footer .mobile-show{
+		display: block;
+		font-size: 16px;
+		color: #666;
+		padding: 10px 0;
+	}
+
+	/*tournews*/
+	#tournews .tournews-bg hgroup{
+		height: 60px;
+	}
+
+	#tournews .title h2{
+		font-size: 20px;
+	}
+
+	#tournews .title h3{
+		font-size: 12px;
+	}
+
+	#tournews .ticket fieldset{
+		font-size: 14px;
+	}
+
+	#tournews .container{
+		width: 100%;
+	}
+
+	#tournews .container h2{
+		font-size: 22px;
+	}
+}
